@@ -1,14 +1,52 @@
 fileFormatVersion: 2
-guid: 64b800a4b0fc46e4ba7879dbc8d73b44
+guid: d78fc463dee2fab459c7ec072545474f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material.002
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cube
+    100000: BezierCurve
+    100002: BezierCurve.001
+    100004: BezierCurve.002
+    100006: BezierCurve.003
+    100008: BezierCurve.004
+    100010: BezierCurve.005
+    100012: Cylinder
+    100014: //RootNode
+    400000: BezierCurve
+    400002: BezierCurve.001
+    400004: BezierCurve.002
+    400006: BezierCurve.003
+    400008: BezierCurve.004
+    400010: BezierCurve.005
+    400012: Cylinder
+    400014: //RootNode
+    2100000: Material.001
+    2100002: Material.002
+    2100004: Material.003
+    2100006: Material.004
+    2100008: Material.005
+    2100010: Material.006
+    2100012: Material.007
+    2300000: BezierCurve
+    2300002: BezierCurve.001
+    2300004: BezierCurve.002
+    2300006: BezierCurve.003
+    2300008: BezierCurve.004
+    2300010: BezierCurve.005
+    2300012: Cylinder
+    3300000: BezierCurve
+    3300002: BezierCurve.001
+    3300004: BezierCurve.002
+    3300006: BezierCurve.003
+    3300008: BezierCurve.004
+    3300010: BezierCurve.005
+    3300012: Cylinder
+    4300000: Cylinder
+    4300002: BezierCurve
+    4300004: BezierCurve.001
+    4300006: BezierCurve.002
+    4300008: BezierCurve.003
+    4300010: BezierCurve.004
+    4300012: BezierCurve.005
   externalObjects: {}
   materials:
     importMaterials: 1
