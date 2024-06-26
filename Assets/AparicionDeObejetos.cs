@@ -1,39 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AparicionDeObejetos : MonoBehaviour
 {
-    public GameObject[] objetos;
-    public int CantidadObjetos;
-    public int CantidadAparecidos;
-    public int MaxSpawn;
-    public int MinSpawn;
-    public Transform Spawner;
-    public int RandomSpawn-40;
+    public Transform Spawn; // Actual number of objects on screen
+    public GameObject[] objects; // Array to store the objects
 
-    // Start is called before the first frame update
     void Start()
     {
-        CantidadObjetos = Random.Range(MinSpawn, MaxSpawn + 1);
-        CantidadObjetos = CantidadAparecidos;
-        SpawnearObjetos();
+        InstanciarObjetos();
     }
 
-    // Update is called once per frame
     void Update()
     {
 
     }
 
-    public void SpawnearObjetos()
+    public void InstanciarObjetos()
     {
-        CantidadAparecidos--;
-        int SeleccionRandomObject = Random.Range(0, objetos.Length);
-        float PositionRandomX = Random.Range(-RandomSpawn, RandomSpawn);
-        float PositionRandomZ = Random.Range(-RandomSpawn, RandomSpawn);
-
-        Vector3 posicion = new Vector3(PositionRandomX, Spawner.position.y, PositionRandomZ);
-        Instantiate(objetos[SeleccionRandomObject], posicion, Quaternion.identity);
+        int i = Random.Range(0, objects.Length);
+        Vector3 randomSpanwpoint = new Vector3(Random.Range(-5,6), 5, Random.Range(-5,6));
+        Instantiate(objects[i], randomSpanwpoint, Quaternion.identity);
     }
 }
