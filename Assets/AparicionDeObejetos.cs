@@ -5,11 +5,18 @@ using UnityEngine.UI;
 
 public class AparicionDeObejetos : MonoBehaviour
 {
-    public Transform Spawn; // Actual number of objects on screen
-    public GameObject[] objects; // Array to store the objects
+    public int CantidadObjetos;
+    public int CantidadObjetosEnPantalla;
+    public Transform Spawn; 
+    public GameObject[] objects;
+    public int maxObjects;
+    public int minObjects;
+    public float Limites;
 
     void Start()
     {
+        CantidadObjetos = Random.Range(minObjects, maxObjects + 1);
+        CantidadObjetosEnPantalla = CantidadObjetos;
         InstanciarObjetos();
     }
 
@@ -21,7 +28,9 @@ public class AparicionDeObejetos : MonoBehaviour
     public void InstanciarObjetos()
     {
         int i = Random.Range(0, objects.Length);
-        Vector3 randomSpanwpoint = new Vector3(Random.Range(-5,6), 5, Random.Range(-5,6));
+        float PosicionX = Random.Range(-Limites, Limites);
+        float PosicionZ = Random.Range(-Limites, Limites);
+        Vector3 randomSpanwpoint = new Vector3(PosicionX, Spawn.position.y, PosicionZ);
         Instantiate(objects[i], randomSpanwpoint, Quaternion.identity);
     }
 }
