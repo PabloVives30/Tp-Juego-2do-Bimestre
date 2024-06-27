@@ -216,17 +216,13 @@ MonoBehaviour:
   objects:
   - {fileID: 7719953582161955612, guid: 7fa00bb9507acee4d8c6f73fa2cfe237, type: 3}
   - {fileID: 967673163618256187, guid: ccfceb11bc2da51479a46ab68e16cf22, type: 3}
-  - {fileID: 719355215007732489, guid: eb31e854e9332894a81b12ade1234183, type: 3}
   - {fileID: 759220523497897137, guid: 2d31e2151c2edeb4999558c12d03afeb, type: 3}
   - {fileID: 5893791406906831237, guid: 542ccc8c9ed4145418b2a0a6e49ddc05, type: 3}
-  - {fileID: 4960479814045770063, guid: b1a4ee6a55f93bb40b36ab9a0e988dc9, type: 3}
-  - {fileID: 7952894553015045935, guid: 29fed3ce80e90be46a115850099f81d9, type: 3}
   - {fileID: 7469298315140268094, guid: 2c57cd221106e46468f41acc4a187298, type: 3}
   - {fileID: 4313867819450992410, guid: 254eee0ffd38268478340b2ce72568bd, type: 3}
   - {fileID: 2583141116603183732, guid: d7e91468aabaa0341b172875f8842a73, type: 3}
   - {fileID: 7112100094108942198, guid: bfa241d0c243ad8419aeb2ab85199d21, type: 3}
   - {fileID: 4000132094460603528, guid: bdf9b8e545d2ac94a8b33d794537de6c, type: 3}
-  - {fileID: 4840129822969704738, guid: 345fd4df4331ace41818ef07c4d724e2, type: 3}
   - {fileID: 6136328460531613095, guid: 1bd5498abd0b65c4a84fd93913833144, type: 3}
   - {fileID: 2133923486638116251, guid: 3508269e897f759419e545c12f9fec0e, type: 3}
   - {fileID: 5075199803767549599, guid: ac0968e8d23aaf242bb02ec967cdf847, type: 3}
@@ -1302,7 +1298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.007980347, y: -0.000030517578}
+  m_AnchoredPosition: {x: 0.0079956055, y: -0.000030517578}
   m_SizeDelta: {x: -160.27762, y: -128.25145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1956418183
