@@ -236,10 +236,10 @@ MonoBehaviour:
   maxObjects: 10
   minObjects: 1
   Limites: -2.38
-  responderbtn: {fileID: 0}
-  inputFieldcantidad: {fileID: 0}
-  PanelGanaste: {fileID: 0}
-  PanelPerdiste: {fileID: 0}
+  responderbtn: {fileID: 1244972019}
+  inputFieldcantidad: {fileID: 694112154}
+  PanelGanaste: {fileID: 1514793520}
+  PanelPerdiste: {fileID: 1956418181}
 --- !u!4 &71051620
 Transform:
   m_ObjectHideFlags: 0
@@ -948,7 +948,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1244972020}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 71051619}
+        m_MethodName: botonresponder
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1244972020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1111,7 +1122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000030994, y: 0.0000061989}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -160.29358, y: -128.25139}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514793522
@@ -1291,7 +1302,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0079803, y: -0.000030518}
+  m_AnchoredPosition: {x: 0.007980347, y: -0.000030517578}
   m_SizeDelta: {x: -160.27762, y: -128.25145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1956418183
