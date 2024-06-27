@@ -17,7 +17,8 @@ public class AparicionDeObejetos : MonoBehaviour
     {
         CantidadObjetos = Random.Range(minObjects, maxObjects + 1);
         CantidadObjetosEnPantalla = CantidadObjetos;
-        InstanciarObjetos();
+        for (int i = 0; i < CantidadObjetos; i++)
+            InstanciarObjetos();
     }
 
     void Update()
@@ -28,8 +29,8 @@ public class AparicionDeObejetos : MonoBehaviour
     public void InstanciarObjetos()
     {
         int i = Random.Range(0, objects.Length);
-        float PosicionX = Random.Range(-Limites, Limites);
-        float PosicionZ = Random.Range(-Limites, Limites);
+        float PosicionX = Random.Range(-11.31f, 8.47f);
+        float PosicionZ = Random.Range(-5.9f, 17.5f);
         Vector3 randomSpanwpoint = new Vector3(PosicionX, Spawn.position.y, PosicionZ);
         Instantiate(objects[i], randomSpanwpoint, Quaternion.identity);
     }
