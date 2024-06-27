@@ -25,6 +25,7 @@ public class AparicionDeObejetos : MonoBehaviour
         
         queobjeto = Random.Range(0, objects.Length);
         cantidadpantalla = CantidadObjetos;
+        cantidadpantalla -= 2;
             InstanciarObjetos();
     }
 
