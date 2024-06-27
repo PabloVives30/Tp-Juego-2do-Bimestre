@@ -67,4 +67,9 @@ public class AparicionDeObejetos : MonoBehaviour
         }
     }
 
+    public void IntentarloDeNuevo()
+    {
+        PanelPerdiste.SetActive(false);
+    }
+
 }
