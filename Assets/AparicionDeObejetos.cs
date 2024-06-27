@@ -12,6 +12,8 @@ public class AparicionDeObejetos : MonoBehaviour
     public int maxObjects;
     public int minObjects;
     public float Limites;
+    public Button responderbtn;
+    public InputField inputFieldcantidad;
 
     void Start()
     {
@@ -33,5 +35,13 @@ public class AparicionDeObejetos : MonoBehaviour
         float PosicionZ = Random.Range(-5.9f, 17.5f);
         Vector3 randomSpanwpoint = new Vector3(PosicionX, Spawn.position.y, PosicionZ);
         Instantiate(objects[i], randomSpanwpoint, Quaternion.identity);
+    }
+
+    public void botonresponder()
+    {
+        if(inputFieldcantidad.text == "")
+        {
+            Debug.Log("Ingrese un número por favor");
+        }
     }
 }
